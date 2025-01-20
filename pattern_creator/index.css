@@ -1,0 +1,14 @@
+.slot {
+    position: absolute;
+    background-color: black;
+}
+
+#grid-container {
+    position: relative;
+    width: min(75vh, 50vw);
+    left: 50%;
+    translate: -50% 0%;
+    aspect-ratio: 1;
+    background-color: rgb(93, 93, 93);
+    border: black 1px solid;
+}
